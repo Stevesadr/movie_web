@@ -1,0 +1,137 @@
+@media screen and (min-width: 600px) {
+  .outer_Conteiner {
+    /* display: flex; */
+    width: 100%;
+  }
+  .left_Conteiner {
+    height: auto;
+    width: 100%;
+    background-color: #151515;
+    overflow: auto;
+  }
+  .right_Conteiner {
+    width: 100%;
+    height: auto;
+    background-color: #151515;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  .total_Info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 30%;
+    background-color: brown;
+    border-radius: 8px;
+    padding: 4px;
+  }
+  .total_Time_Info {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+    background-color: brown;
+    border-radius: 10px;
+    margin: 10px;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+  }
+  .iamge_None_total {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .outer_Conteiner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100vh; */
+  }
+  .total_Info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+    border-radius: 8px;
+    padding: 4px;
+  }
+  .left_Conteiner {
+    height: auto;
+    width: 100%;
+    background-color: #151515;
+    /* overflow: auto; */
+  }
+  .right_Conteiner {
+    width: 100%;
+    /* height: 100%; */
+    height: auto;
+    background-color: brown;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  .iamge_None_total {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .outer_Conteiner {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+  .left_Conteiner {
+    height: 100%;
+    width: 65%;
+    background-color: #151515;
+    overflow: auto;
+  }
+  .right_Conteiner {
+    width: 35%;
+    height: 100%;
+    background-color: #151515;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  .total_Info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 30%;
+    background-color: brown;
+    border-radius: 8px;
+    padding: 4px;
+  }
+  .total_Time_Info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+  }
+  .iamge_None_total {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 90% !important;
+    height: 90% !important;
+    padding: 20px;
+  }
+}

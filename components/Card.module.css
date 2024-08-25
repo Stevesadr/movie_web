@@ -1,0 +1,91 @@
+/* .outer_Conteiner {
+  width: 20%;
+  background-color: rgb(91, 81, 67);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: auto;
+  margin: 1%;
+  padding: 15px;
+  border-radius: 16px;
+}
+.outer_Conteiner img {
+  width: 100%;
+  height: auto;
+  padding: 10%;
+}
+.outer_Conteiner h5 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+} */
+@media only screen and (max-width: 600px) {
+  .outer_Conteiner {
+    width: 20%;
+    background-color: #a91d3a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex-grow: 1;
+    flex-basis: 200;
+    height: 100%;
+    margin: 1%;
+    border-radius: 16px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .outer_Conteiner {
+    width: 20%;
+    background-color: #a91d3a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: auto;
+    margin: 1%;
+    padding: 15px;
+    border-radius: 16px;
+  }
+  .outer_Conteiner img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .outer_Conteiner {
+    width: 20%;
+    background-image: linear-gradient(180deg, #a91d3a, black, #a91d3a);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: auto;
+    margin: 1%;
+    padding: 15px;
+    border-radius: 16px;
+  }
+  .outer_Conteiner img {
+    width: 100%;
+    height: auto;
+    padding: 10%;
+  }
+  .outer_Conteiner h5 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

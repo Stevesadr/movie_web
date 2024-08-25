@@ -1,0 +1,25 @@
+.outer_Conteiner {
+  box-sizing: border-box;
+  margin: 10px;
+  background-color: #a91d3a;
+  border-radius: 10px;
+}
+.img_carousel_div {
+  padding: 10px;
+  height: 300px;
+}
+.img_carousel_div img {
+  border-radius: 10px;
+}
+@media only screen and (max-width: 650px) {
+  .outer_Conteiner {
+    box-sizing: border-box;
+    margin: 10px;
+    background-color: #151515;
+    border-radius: 10px;
+  }
+  .img_carousel_div {
+    padding: 10px;
+    height: 150px;
+  }
+}

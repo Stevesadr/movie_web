@@ -1,0 +1,15 @@
+.see_next_time_Btn {
+  padding: 5px;
+  width: 130px;
+  background-color: #151515;
+  border-color: #c73659;
+  box-shadow: 0px 0px 4px black;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.see_next_time_Btn span {
+  font-size: 10px;
+}

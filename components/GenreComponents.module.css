@@ -1,0 +1,20 @@
+.name_Zharn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  flex-basis: 200;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 30%;
+  margin: 10px;
+  padding: 30px;
+  background-image: linear-gradient(120deg, #a91d3a, black);
+  height: auto;
+}
+.name_Zharn:hover {
+  background-image: none;
+  background-color: #731e32;
+  text-rendering: auto;
+  transition: 0.5s ease;
+}
