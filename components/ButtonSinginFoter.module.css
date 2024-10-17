@@ -1,0 +1,13 @@
+.main_Div {
+  background-color: #e1b517;
+  width: 215px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}

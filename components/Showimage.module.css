@@ -1,0 +1,14 @@
+.outerConteiner {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.img {
+  width: 200px !important;
+  height: 300px !important;
+  border-radius: 10px;
+}

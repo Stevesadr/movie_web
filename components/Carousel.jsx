@@ -51,7 +51,7 @@ const Carouseltest = ({ resCardCarousel }) => {
                 <img
                   src={imageUrl.poster}
                   alt="movie"
-                  style={{ height: "inherit" }}
+                  style={{ height: "300px" }}
                 />
               </Link>
             </div>

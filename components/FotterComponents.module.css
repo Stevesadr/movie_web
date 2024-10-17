@@ -1,0 +1,19 @@
+.outerComponents {
+  width: 100%;
+  height: 100%;
+}
+.singin_Div {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.betwiin_Div {
+  width: 100%;
+  height: 40%;
+}
+.text_Div {
+  width: 100%;
+  height: 40%;
+}

@@ -64,7 +64,7 @@
 }
 @media screen and (min-width: 1200px) {
   .outer_Conteiner {
-    width: 20%;
+    width: 15%;
     background-image: linear-gradient(180deg, #a91d3a, black, #a91d3a);
     display: flex;
     flex-direction: column;
@@ -75,13 +75,10 @@
     white-space: nowrap;
     height: auto;
     margin: 1%;
-    padding: 15px;
-    border-radius: 16px;
   }
   .outer_Conteiner img {
     width: 100%;
-    height: auto;
-    padding: 10%;
+    height: 300px;
   }
   .outer_Conteiner h5 {
     overflow: hidden;

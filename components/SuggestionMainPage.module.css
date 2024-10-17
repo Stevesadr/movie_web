@@ -1,0 +1,10 @@
+.main_Conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.act {
+  width: 100% !important;
+  background-color: yellowgreen;
+}

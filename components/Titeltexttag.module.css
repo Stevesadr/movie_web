@@ -1,0 +1,12 @@
+.actor_text {
+  margin-left: 20px;
+  border-left: 2px dashed blanchedalmond;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ico {
+  font-size: 20px;
+  background-color: yellowgreen;
+}

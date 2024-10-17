@@ -1,0 +1,33 @@
+.outerConteiner {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  height: 100%;
+}
+.image_Conteiner {
+  width: 20%;
+}
+.img_Poster {
+  width: 100% !important;
+  height: 100% !important;
+}
+.text_Conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 10px;
+  width: 70%;
+}
+.body_Image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.icon_Div {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}

@@ -1,0 +1,16 @@
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+.footer_row {
+  margin-bottom: 10px;
+}
+.footer_link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+.footer_link:hover {
+  text-decoration: underline;
+}

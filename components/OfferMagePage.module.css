@@ -1,0 +1,5 @@
+.outerConteiner {
+  width: 100%;
+  background: linear-gradient(to bottom, rgb(36, 36, 36), rgba(0, 0, 0, 0));
+  padding: 10px;
+}

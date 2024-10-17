@@ -1,19 +1,50 @@
-.outerConteiner {
-  background-color: #151515;
-  width: 100%;
+.main_Div {
+  background-color: #000000;
   height: auto;
+  width: 100%;
+}
+.outerConteiner {
+  width: 100%;
+  height: 100vh;
   display: flex;
   align-items: flex-start;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-.right_Conteiner {
-  width: 70%;
+
+.left_Conteiner {
+  width: 30%;
+  height: 100%;
   display: flex;
   align-items: flex-start;
-  /* height: 50%; */
+  justify-content: center;
+  margin-top: 30px;
 }
-.left_Conteiner {
+.img_mainPage {
   height: 100%;
-  width: 30%;
+  width: 60%;
+}
+.actor_text {
+  margin-left: 20px;
+  border-left: 2px dashed blanchedalmond;
+  padding: 10px;
+}
+.actors_Div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.actors_info {
+  width: 90%;
+}
+.ico {
+  font-size: 40px;
+}
+.actors_info:hover .ico {
+  color: yellow;
+}
+.fotter_Div {
+  width: 100%;
+  height: 400px;
 }
